@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en-uk">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Página Simples</title>
+
+  <style>
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+      font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    body {
+
+      background-color: #f8f9fa;
+
+    }
+
+    .navbar {
+
+      background-color: #343a40;
+
+      color: white;
+
+      padding: 15px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+    }
+
+    .navbar .logo {
+
+      font-size: 22px;
+
+      font-weight: bold;
+
+    }
+
+    .navbar .nav-links {
+
+      list-style: none;
+
+      display: flex;
+
+    }
+
+    .navbar .nav-links li {
+
+      margin-left: 20px;
+
+    }
+
+    .navbar .nav-links li a {
+
+      color: white;
+
+      text-decoration: none;
+
+      transition: color 0.3s;
+
+    }
+
+    .navbar .nav-links li a:hover {
+
+      color: #007bff;
+
+    }
+
+    .container {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+      gap: 20px;
+
+      padding: 20px;
+
+      justify-content: center;
+
+    }
+
+    .card {
+
+      background-color: white;
+
+      border-radius: 8px;
+
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+      text-align: center;
+
+      padding: 15px;
+
+      transition: transform 0.3s;
+
+    }
+
+    .card:hover {
+
+      transform: scale(1.05);
+
+    }
+
+    .card img {
+
+      width: 100%;
+
+      height: auto;
+
+      border-radius: 8px;
+
+    }
+
+    .card h3 {
+
+      margin: 10px 0;
+
+    }
+
+    .card p {
+
+      color: #555;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="navbar">
+
+    <div class="logo">Minha Página</div>
+
+    <ul class="nav-links">
+
+      <li><a href="#">Início</a></li>
+
+      <li><a href="#">Sobre</a></li>
+
+      <li><a href="#">Contato</a></li>
+
+    </ul>
+
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+
+      <img src="https://ichef.bbci.co.uk/images/ic/1024x576/p0d17xyt.jpg.webp" alt="Imagem Card 1">
+
+      <h3><a href="https://www.bbc.com/travel/article/20250331-the-word-embodying-the-spirit-of-hawaii" target="_blank">Hawaii ancient concept of malama a> </a></h3>
+
+      <p>Myanmar's rulers say more than 2,700 people are confirmed dead</p>
+
+    </div>
+
+    <div class="card">
+
+      <img src="https://ichef.bbci.co.uk/images/ic/1920x1080/p0l1jpb0.jpg.webp" alt="Imagem Card 2">
+
+      <h3><a href="https://www.bbc.com/travel/article/20250331-the-word-embodying-the-spirit-of-hawaii" target="_blank">Myanmar remembers earthquake dead with a minute's silence </a></h3>
+
+      <p>Meaning "to give back", this concept is a way of life – and a tourism initiative offering travellers fascinating local experiences and perks..</p>
+
+    </div>
+
+    <div class="card">
+
+      <img src="https://ichef.bbci.co.uk/images/ic/480x270/p0l0pql7.jpg.webp" alt="Imagem Card 3">
+
+      <h3><a href="https://www.bbc.com/culture/article/20250327-how-bill-gates-predicted-our-it-age-back-in-1993" target="_blank">How Bill Gates mapped out the internet era in 1993</a>.</h3>
+
+      <p> Gates and Paul Allen launched computing giant Microsoft 50 years ago. In 1993, he talked to the BBC about the online innovations that would define the 21st Century.</p>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
